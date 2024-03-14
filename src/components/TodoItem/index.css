@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  color: #000000;
+}
+.buton {
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 2px solid #ff0b37;
+  border-radius: 5px;
+  color: #ff0b37;
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+}
+@media (orientation:portrait){
+
+  .title{
+    font-size: 15px;
+  color: #000000;
+  }
+
+  
+}
